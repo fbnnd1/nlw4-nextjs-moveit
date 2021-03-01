@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Move it
 
-## Getting Started
+##  Introdução
 
-First, run the development server:
+Este repositório contém o projeto ‘Move It’, desenvolvido na Next Level Week 4. Evento promovido pela [Rocketseat](https://rocketseat.com.br/).
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Ideia do projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O intuito deste projeto é fazer o usuário utilizar uma variação da técnica de Pomodoro, que orienta o usuário a dividir uma atividade em intervalos de 30 minutos. Para cada intervalo, o usuário emprega 25 minutos na realização da atividade e 5 minutos de descanso.
+O projeto indica para o usuário no período de descanso alguma atividade física simples voltada para o corpo, dentre elas algumas específicas para os olhos.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+O sistema usa alguns conceitos de jogos digitais, onde o usuário vai acumulando pontos e avança conforme os exercícios que ele realiza.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Stakeholders/Usuários
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Pessoas que usam o computador para trabalhar e/ou estudar.
 
-## Learn More
+## Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- Cronometragem de 25 minutos;
+- Sugestão de exercícios físicos, desafios;
+- Contabilização de pontos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ - React com NextJs.
 
-## Deploy on Vercel
+## Requisitos de instalação/desenvolvimento.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node versão 12 ou superior
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Telas
+
+Início
+
+![Tela no início](_docs/tela1.png)
+
+Contagem regressiva iniciada
+
+![Tela com a cronometragem disparada](_docs/tela2.png)
+
+Exibição do desafio
+
+![Tela com a exibição do desafio](_docs/tela3.png)
+
+Avanço de level
+
+![Tela com mensagem de avanço de level](_docs/tela4.png)
+
+Tela atualizada com a contagem de pontos
+
+![Tela atualizada com contabilização dos pontos](_docs/tela5.png)
+
+## Agradecimentos
+
+Segue o agradecimento a toda a comunidade de devs que participou do evento e membros da Rocketseat, em especial ao professor [Diego Fernandes](https://www.youtube.com/channel/UC_2bfnGwgK7qdI_F0CzCgpg).
+
