@@ -4,7 +4,7 @@ import { ChallengesProvider } from '../contexts/ChallengesContext';
 import styles from '../styles/pages/Home.module.css';
 import {ExperienceBar} from '../components/ExperienceBar';
 import {Profile} from '../components/Profile';
-import { CompleteChallanges } from '../components/CompleteChallanges';
+import { CompleteChallenges } from '../components/CompleteChallenges';
 import { Countdown } from '../components/Countdown';
 import { ChallengeBox } from '../components/ChallengeBox';
 import { CountdownProvider } from '../contexts/CountdownContext';
@@ -27,7 +27,7 @@ export default function Home(props) {
           <section>
             <div>
               <Profile />
-              <CompleteChallanges />
+              <CompleteChallenges />
               <Countdown />
             </div>
             <div>
