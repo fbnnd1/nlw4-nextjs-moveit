@@ -2,6 +2,8 @@
 .experienceBar {
     display: flex;
     align-items: center;
+    width:100%;
+    margin-bottom: 25px;
 }
 
 .experienceBar span {
@@ -15,6 +17,7 @@
     background: var(--gray-line);
     margin: 0 1.5rem;
     position: relative;
+    width:100%
 }
 
 .experienceBar > div > div {
