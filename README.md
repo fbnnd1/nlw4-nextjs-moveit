@@ -34,7 +34,13 @@ Pessoas que usam o computador para trabalhar e/ou estudar.
 
 Início
 
+*Versão Desktop*
+
 ![Tela no início](_docs/tela1.png)
+
+*Versão Mobile*
+
+![Tela de início](_docs/tela-inicio-mobile.png)
 
 Contagem regressiva iniciada
 
