@@ -37,8 +37,8 @@ export function ChallengesProvider({children, ...rest}: ChallengesProviderProps)
     //const [challengesCompleted, setChallengesCompleted] = useState(rest.challengesCompleted ?? 0);
 
     const [level, setLevel] = useState(isNaN(rest.level) ? 1 : rest.level);
-    const [currentExperience, setCurrentExperience] = useState(isNaN(rest.currentExperience) ? 0 : rest.currentExperience);
-    const [challengesCompleted, setChallengesCompleted] = useState(isNaN(rest.challengesCompleted) ? 0 : rest.challengesCompleted);
+    const [currentExperience, setCurrentExperience] = useState( (isNaN(rest.currentExperience) || rest.currentExperience == null)? 0 : rest.currentExperience);
+    const [challengesCompleted, setChallengesCompleted] = useState( (isNaN(rest.challengesCompleted) || rest.challengesCompleted == null) ? 0 : rest.challengesCompleted);
 
     const [activeChallenge, setActiveChallenge] = useState(null);
     const [isLevelUpModalOpen, setIsLevelUpModalOpen ] = useState(false);
@@ -65,6 +65,12 @@ export function ChallengesProvider({children, ...rest}: ChallengesProviderProps)
     function startNewChallenge() {
         const randomChallengeIndex = Math.floor(Math.random() * challenges.length);
         const challenge = challenges[randomChallengeIndex];
+
+        const experienceToNext2Levels = Math.pow((level + 2) * 4, 2);
+
+        if ((challenge.amount + currentExperience) >= experienceToNext2Levels) {
+            challenge.amount = (challenge.amount % experienceToNextLevel) + experienceToNextLevel;
+        } 
 
         setActiveChallenge(challenge);
 
