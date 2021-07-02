@@ -97,3 +97,8 @@ R: Resto da divisão inteira da pontuação original do desafio proposto com N.
 
 Segue o agradecimento a toda a comunidade de devs que participou do evento e membros da Rocketseat, em especial ao professor [Diego Fernandes](https://www.youtube.com/channel/UC_2bfnGwgK7qdI_F0CzCgpg).
 
+## Links Externos
+
+Canal da Twitch do professor Diego: https://www.twitch.tv/dieegosf  
+Instagram do Tiago Luchtenberg, designer responsável pelo layout da versão desktop da aplicação: https://www.instagram.com/tiagoluchtenberg/
+
